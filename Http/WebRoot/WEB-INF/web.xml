@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Http</display-name>
+  <servlet>
+    <servlet-name>Demo1</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo2</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo3</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo4</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo5</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo5</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo6</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo6</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo13</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo13</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo21</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo21</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo44</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo44</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo55</servlet-name>
+    <servlet-class>cn.itcast.web.http.Demo55</servlet-class>
+    <init-param>
+	<param-name>tel</param-name>
+	<param-value>18290243328</param-value>
+</init-param>
+<init-param>
+	<param-name>email</param-name>
+	<param-value>228602890@qq.com</param-value>
+</init-param>
+<init-param>
+	<param-name>encoding</param-name>
+	<param-value>UTF-8</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Demo1</servlet-name>
+    <url-pattern>/Demo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo2</servlet-name>
+    <url-pattern>/Demo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo3</servlet-name>
+    <url-pattern>/Demo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo4</servlet-name>
+    <url-pattern>/Demo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo5</servlet-name>
+    <url-pattern>/Demo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo6</servlet-name>
+    <url-pattern>/Demo6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo13</servlet-name>
+    <url-pattern>/Demo13</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo21</servlet-name>
+    <url-pattern>/Demo21</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo44</servlet-name>
+    <url-pattern>/Demo44</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo55</servlet-name>
+    <url-pattern>/Demo55</url-pattern>
+    
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
